@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+/*@font-face {
+    font-family: Outfit;
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+}*/
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 55px;
+}
+.outshadow {
+  border-radius: 50px;
+  background-color: hsla(219, 47%, 6%, 0.192);
+  width: 370px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inshadow {
+  border-radius: 50px;
+  width: 320px;
+  height: 550px;
+  background-color: hsl(215, 57%, 9%);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -5px;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  color: hsl(215, 51%, 70%);
+  width: 250px;
+  padding: 20px;
+  max-height: 476px;
+}
+.eqi img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+.white {
+  color: hsl(0, 0%, 100%);
+}
+.ethclk {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.etherenum {
+  height: 30px;
+}
+.etherenum p {
+  color: cyan;
+  font-size: 14px;
+  position: relative;
+  left: 17px;
+  bottom: 37px;
+}
+.clock {
+  height: 10px;
+}
+.clock p {
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  position: relative;
+  left: -2px;
+  bottom: 37px;
+}
+.clock svg {
+  position: relative;
+  right: 25px;
+}
+hr {
+  border-bottom: none;
+  border-color: hsl(215, 51%, 70%);
+}
+.avatar img {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border: 1.5px solid white;
+  border-radius: 30px;
+  margin: 10px 10px 10px 0;
+}
+.avatar p {
+  font-size: 14px;
+  margin: 0;
+  position: relative;
+  top: 16px;
+  left: 5px;
+}
+.eqi {
+  border-radius: 5px;
+  max-height: 250px;
+}
+.iv {
+  position: absolute;
+  bottom: 280px;
+  left: 35px;
+  width: 250px;
+  height: 250px;
+  background: rgba(0, 255, 255, 0.459);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  border-radius: 5px;
+}
+
+.white:hover {
+  cursor: pointer;
+  color: cyan;
+}
+.iv:hover:hover {
+  cursor: pointer;
+  opacity: 1;
+}
